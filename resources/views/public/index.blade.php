@@ -12,27 +12,27 @@
 
     <!-- css -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700" rel="stylesheet">
-    <link href="{{asset("assets/public/asset/css/")}}/bootstrap.css" rel="stylesheet" />
-    <link href="{{asset("assets/public/asset/css/")}}/bootstrap-responsive.css" rel="stylesheet" />
-    <link href="{{asset("assets/public/asset/css/")}}/fancybox/jquery.fancybox.css" rel="stylesheet">
-    <link href="{{asset("assets/public/asset/css/")}}/jcarousel.css" rel="stylesheet" />
-    <link href="{{asset("assets/public/asset/css/")}}/flexslider.css" rel="stylesheet" />
-    <link href="{{asset("assets/public/asset/css/")}}/style.css" rel="stylesheet" />
+    <link href="{{secure_asset("assets/public/asset/css/")}}/bootstrap.css" rel="stylesheet" />
+    <link href="{{secure_asset("assets/public/asset/css/")}}/bootstrap-responsive.css" rel="stylesheet" />
+    <link href="{{secure_asset("assets/public/asset/css/")}}/fancybox/jquery.fancybox.css" rel="stylesheet">
+    <link href="{{secure_asset("assets/public/asset/css/")}}/jcarousel.css" rel="stylesheet" />
+    <link href="{{secure_asset("assets/public/asset/css/")}}/flexslider.css" rel="stylesheet" />
+    <link href="{{secure_asset("assets/public/asset/css/")}}/style.css" rel="stylesheet" />
     <!-- Theme skin -->
-    <link href="{{asset("assets/public/asset/skins/")}}/default.css" rel="stylesheet" />
+    <link href="{{secure_asset("assets/public/asset/skins/")}}/default.css" rel="stylesheet" />
 
 
     <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{asset("assets/public/asset/ico/")}}/apple-touch-icon-144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{secure_asset("assets/public/asset/ico/")}}/apple-touch-icon-144-precomposed.png" />
 
 
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{asset("assets/public/asset/ico/")}}/apple-touch-icon-114-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{secure_asset("assets/public/asset/ico/")}}/apple-touch-icon-114-precomposed.png" />
 
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{asset("assets/public/asset/ico/")}}/apple-touch-icon-72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{secure_asset("assets/public/asset/ico/")}}/apple-touch-icon-72-precomposed.png" />
 
-    <link rel="apple-touch-icon-precomposed" href="{{asset("assets/public/asset/ico/")}}/apple-touch-icon-57-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" href="{{secure_asset("assets/public/asset/ico/")}}/apple-touch-icon-57-precomposed.png" />
 
-    <link rel="shortcut icon" href="{{asset("assets/public/asset/ico/")}}/favicon.png" />
+    <link rel="shortcut icon" href="{{secure_asset("assets/public/asset/ico/")}}/favicon.png" />
 
 
     <!-- =======================================================
@@ -179,7 +179,7 @@
                     <div class="row">
                         <div class="span4">
                             <div class="logo">
-                                <a href="index.html"><img src="{{asset("assets/public/asset/img/")}}/logo.png" alt="" class="logo" /></a>
+                                <a href="index.html"><img src="{{secure_asset("assets/public/asset/img/")}}/logo.png" alt="" class="logo" /></a>
                                 <h1>Flat and trendy bootstrap template</h1>
                             </div>
                         </div>
@@ -304,29 +304,29 @@
     </div>
 </body>
 <a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-32 active"></i></a>
-<script src="{{asset("js/app.js")}}"></script>
+<script src="{{secure_asset("js/app.js")}}"></script>
 
 <!-- javascript
   ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="{{asset("assets/public/asset/js/")}}/jquery.js"></script>
-<script src="{{asset("assets/public/asset/js/")}}/jquery.easing.1.3.js"></script>
-<script src="{{asset("assets/public/asset/js/")}}/bootstrap.js"></script>
-<script src="{{asset("assets/public/asset/js/")}}/jcarousel/jquery.jcarousel.min.js"></script>
-<script src="{{asset("assets/public/asset/js/")}}/jquery.fancybox.pack.js"></script>
-<script src="{{asset("assets/public/asset/js/")}}/jquery.fancybox-media.js"></script>
-<script src="{{asset("assets/public/asset/js/")}}/google-code-prettify/prettify.js"></script>
-<script src="{{asset("assets/public/asset/js/")}}/portfolio/jquery.quicksand.js"></script>
-<script src="{{asset("assets/public/asset/js/")}}/portfolio/setting.js"></script>
-<script src="{{asset("assets/public/asset/js/")}}/jquery.flexslider.js"></script>
-<script src="{{asset("assets/public/asset/js/")}}/jquery.nivo.slider.js"></script>
-<script src="{{asset("assets/public/asset/js/")}}/modernizr.custom.js"></script>
-<script src="{{asset("assets/public/asset/js/")}}/jquery.ba-cond.min.js"></script>
-<script src="{{asset("assets/public/asset/js/")}}/jquery.slitslider.js"></script>
-<script src="{{asset("assets/public/asset/js/")}}/animate.js"></script>
+<script src="{{secure_asset("assets/public/asset/js/")}}/jquery.js"></script>
+<script src="{{secure_asset("assets/public/asset/js/")}}/jquery.easing.1.3.js"></script>
+<script src="{{secure_asset("assets/public/asset/js/")}}/bootstrap.js"></script>
+<script src="{{secure_asset("assets/public/asset/js/")}}/jcarousel/jquery.jcarousel.min.js"></script>
+<script src="{{secure_asset("assets/public/asset/js/")}}/jquery.fancybox.pack.js"></script>
+<script src="{{secure_asset("assets/public/asset/js/")}}/jquery.fancybox-media.js"></script>
+<script src="{{secure_asset("assets/public/asset/js/")}}/google-code-prettify/prettify.js"></script>
+<script src="{{secure_asset("assets/public/asset/js/")}}/portfolio/jquery.quicksand.js"></script>
+<script src="{{secure_asset("assets/public/asset/js/")}}/portfolio/setting.js"></script>
+<script src="{{secure_asset("assets/public/asset/js/")}}/jquery.flexslider.js"></script>
+<script src="{{secure_asset("assets/public/asset/js/")}}/jquery.nivo.slider.js"></script>
+<script src="{{secure_asset("assets/public/asset/js/")}}/modernizr.custom.js"></script>
+<script src="{{secure_asset("assets/public/asset/js/")}}/jquery.ba-cond.min.js"></script>
+<script src="{{secure_asset("assets/public/asset/js/")}}/jquery.slitslider.js"></script>
+<script src="{{secure_asset("assets/public/asset/js/")}}/animate.js"></script>
 
 <!-- Template Custom JavaScript File -->
-<script src="{{asset("assets/public/asset/js/")}}/custom.js"></script>
+<script src="{{secure_asset("assets/public/asset/js/")}}/custom.js"></script>
 
 </body>
 </html>
