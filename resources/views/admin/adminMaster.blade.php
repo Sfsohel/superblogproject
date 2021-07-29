@@ -22,7 +22,7 @@
 
                 <li class="nav-item">
                     <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#">
-                        <i class="fa fa-th-large"></i>
+                        {{-- <i class="fa fa-th-large"></i> --}}
                     </a>
                 </li>
             </ul>
@@ -47,16 +47,18 @@
                          with font-awesome or any other icon font library -->
                         <li class="nav-item has-treeview">
                             <router-link to="/home" class="nav-link">
-                                <i class="nav-icon fa fa-dashboard"></i>
+                                {{-- <i class="nav-icon fa fa-dashboard"></i> --}}
+                                <span class=" nav-icon glyphicon glyphicon-th-large"></span> 
                                 <p>
                                     Dashboard
-                                    <i class="right fa fa-angle-left"></i>
+                                    {{-- <i class="right fa fa-angle-left"></i> --}}
                                 </p>
                             </router-link>
                         </li>
                         <li class="nav-item">
                             <router-link to="/category-list" class="nav-link">
-                                <i class="nav-icon fa fa-th"></i>
+                                {{-- <i class="nav-icon fa fa-th"></i> --}}
+                                 <span class=" nav-icon glyphicon glyphicon-th-list"></span>
                                 <p>
                                     Category
 
@@ -65,7 +67,8 @@
                         </li>
                         <li class="nav-item">
                             <router-link to="/post-list" class="nav-link">
-                                <i class="nav-icon fa fa-th"></i>
+                                {{-- <i class="nav-icon fa fa-th"></i> --}}
+                                 <span class="nav-icon glyphicon glyphicon-list-alt"></span>
                                 <p>
                                     Post
                                     <span class="right badge badge-danger">New</span>
