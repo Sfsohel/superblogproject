@@ -10,7 +10,9 @@ window.Vue = require('vue');
 
 
 import Vuex from 'vuex'
-
+Vue.http.headers.common['Access-Control-Allow-Origin'] = true,
+Vue.http.headers.common['Access-Control-Allow-Origin'] = '*',
+Vue.http.options.emulateJSON = true
 Vue.use(Vuex)
 
 import storeData from './store/index'
